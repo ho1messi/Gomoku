@@ -1,0 +1,21 @@
+.board {
+    position: absolute;
+    width: 535px;
+    height: 535px;
+}
+
+.board_img {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.board_row {
+    width: 535px;
+    height: 35px;
+    flex-direction: row;
+}
+
+.cross_point {
+    border: 1px solid red;
+}
