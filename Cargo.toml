@@ -1,0 +1,21 @@
+[package]
+name = "gomoku"
+version = "0.1.0"
+authors = ["Ho1messi <1017145733@qq.com>"]
+edition = "2018"
+
+[dependencies.backend]
+path = "libs/backend"
+
+[dependencies.bot]
+path = "libs/bot"
+
+[dependencies]
+azul = {git = "http://github.com/maps4print/azul"}
+
+[features]
+default = [
+    "image_loading",
+]
+
+image_loading = ["azul/image_loading"]
